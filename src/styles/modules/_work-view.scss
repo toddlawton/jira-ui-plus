@@ -1,0 +1,14 @@
+/* Fix rows in work view columns to not take more space than necessary */
+.ghx-work .ghx-swimlane .ghx-columns .ghx-issue {
+	height: auto;
+	.ghx-grabber {
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+}
+
+.chrome .ghx-swimlane .ghx-issue-fields .ghx-summary .ghx-inner {
+	height: auto;
+}

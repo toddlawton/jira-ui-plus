@@ -1,0 +1,22 @@
+/* All items which are done can be greyed out for better visibility of remaining tasks */
+.ghx-done {
+  opacity: 0.3;
+  -webkit-transition: 1.5s ease all; }
+  .ghx-done:hover {
+    opacity: 0.8; }
+
+/* Make sure story points done badge doesn't become greyed out */
+.aui-badge .ghx-done {
+  opacity: 1; }
+
+/* Fix rows in work view columns to not take more space than necessary */
+.ghx-work .ghx-swimlane .ghx-columns .ghx-issue {
+  height: auto; }
+  .ghx-work .ghx-swimlane .ghx-columns .ghx-issue .ghx-grabber {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+.chrome .ghx-swimlane .ghx-issue-fields .ghx-summary .ghx-inner {
+  height: auto; }
