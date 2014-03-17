@@ -1,3 +1,4 @@
+/* General*/
 /* All items which are done can be greyed out for better visibility of remaining tasks */
 .ghx-done {
   opacity: 0.3;
@@ -9,6 +10,17 @@
 .aui-badge .ghx-done {
   opacity: 1; }
 
+/* Colors */
+/* Page or Section Specific */
+/* Move filters into the header */
+#ghx-operations {
+  display: inline-block;
+  position: fixed;
+  top: 51px;
+  left: 50%;
+  -webkit-transform: translateX(-50%); }
+
+/* Colour coded progress bars for epics in the side bar */
 /* Fix rows in work view columns to not take more space than necessary */
 .ghx-work .ghx-swimlane .ghx-columns .ghx-issue {
   height: auto; }

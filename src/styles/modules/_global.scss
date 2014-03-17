@@ -1,4 +1,5 @@
 /* All items which are done can be greyed out for better visibility of remaining tasks */
+
 .ghx-done {
 	opacity: 0.3;
 	-webkit-transition: 1.5s ease all;
@@ -9,6 +10,7 @@
 }
 
 /* Make sure story points done badge doesn't become greyed out */
+
 .aui-badge {
 	.ghx-done { 
 		opacity: 1 

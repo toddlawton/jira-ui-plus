@@ -1,2 +1,10 @@
+/* General*/
+
 @import "modules/global";
+@import "modules/variables";
+
+/* Page or Section Specific */
+
+@import "modules/header";
+@import "modules/side-menu";
 @import "modules/work-view";

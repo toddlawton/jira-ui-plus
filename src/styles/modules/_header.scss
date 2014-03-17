@@ -1,0 +1,9 @@
+/* Move filters into the header */
+
+#ghx-operations {
+	display: inline-block;
+	position: fixed;
+	top: 51px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+}
