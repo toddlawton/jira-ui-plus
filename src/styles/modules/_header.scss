@@ -7,3 +7,9 @@
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 }
+
+/* Hide header collapse button, it is made somewhat redundant by other spacing improvements */
+
+#ghx-modes-tools #ghx-view-presentation {
+	display: none;
+}

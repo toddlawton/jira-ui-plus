@@ -20,6 +20,10 @@
   left: 50%;
   -webkit-transform: translateX(-50%); }
 
+/* Hide header collapse button, it is made somewhat redundant by other spacing improvements */
+#ghx-modes-tools #ghx-view-presentation {
+  display: none; }
+
 /* Colour coded progress bars for epics in the side bar */
 /* Fix rows in work view columns to not take more space than necessary */
 .ghx-work .ghx-swimlane .ghx-columns .ghx-issue {
@@ -32,3 +36,24 @@
 
 .chrome .ghx-swimlane .ghx-issue-fields .ghx-summary .ghx-inner {
   height: auto; }
+
+/* Reduce unused top spacing of pool */
+#ghx-pool {
+  padding-top: 0 !important; }
+
+/* Hide the distracting header stalker */
+#ghx-work #js-swimlane-header-stalker {
+  display: none; }
+
+#ghx-column-header-group {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  width: auto !important;
+  margin-bottom: 10px; }
+
+/* Better background for work panel columns */
+#ghx-work .ghx-swimlane .ghx-column {
+  background-color: #ECECEC;
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  background-size: 10px 10px; }

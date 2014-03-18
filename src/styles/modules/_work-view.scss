@@ -1,5 +1,4 @@
 /* Fix rows in work view columns to not take more space than necessary */
-
 .ghx-work .ghx-swimlane .ghx-columns .ghx-issue {
 	height: auto;
 	.ghx-grabber {
@@ -12,4 +11,29 @@
 
 .chrome .ghx-swimlane .ghx-issue-fields .ghx-summary .ghx-inner {
 	height: auto;
+}
+
+/* Reduce unused top spacing of pool */
+#ghx-pool {
+	padding-top: 0 !important; // Unfortunately this has been inline styled, must be important, unfortunately.
+}
+ 
+/* Hide the distracting header stalker */
+#ghx-work #js-swimlane-header-stalker {
+	display: none;
+}
+
+#ghx-column-header-group {
+	position: relative !important; // Inline styled, must be important.
+	top: auto !important;
+	left: auto !important;
+	width: auto !important;
+	margin-bottom: 10px;
+}
+
+/* Better background for work panel columns */
+#ghx-work .ghx-swimlane .ghx-column {
+	background-color: #ECECEC;
+	background-image: linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+	background-size: 10px 10px;
 }
