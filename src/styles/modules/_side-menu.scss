@@ -1,5 +1,6 @@
-/* Colour coded progress bars for epics in the side bar */
+/* Smaller epic column */
 
-.ghx-epic-column .ghx-classification-cards {
-	
+#ghx-epic-column {
+	width: 164px;
+	h3 { font-size: 12px; }
 }

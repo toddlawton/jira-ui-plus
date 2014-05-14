@@ -1,11 +1,24 @@
 /* Move filters into the header */
 
+#gh #ghx-header {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 20px 0;
+	h2#ghx-board-name {
+		display: inline-block;
+		position: fixed;
+		right: 24px;
+		bottom: 0px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+}
+
 #ghx-operations {
 	display: inline-block;
-	position: fixed;
-	top: 51px;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
+	float: left;
+	#ghx-controls-sprint { margin-right: 0; } // Can break the header on to 2 lines otherwise
+	.ghx-controls-filters dt, .ghx-controls-filters dd, #js-plan-quickfilters { margin-bottom: 0; } // Remove extra spacing
 }
 
 /* Hide header collapse button, it is made somewhat redundant by other spacing improvements */

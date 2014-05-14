@@ -1,7 +1,7 @@
 {
 
   "name": "Jira UI+",
-  "version": "0.1",
+  "version": "0.2",
   "description": "A Chrome extension designed to improve the usability of Jira's user interface.",
   "icons": { "16": "icons/icon16.png",
              "48": "icons/icon48.png",

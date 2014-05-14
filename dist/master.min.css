@@ -13,18 +13,36 @@
 /* Colors */
 /* Page or Section Specific */
 /* Move filters into the header */
+#gh #ghx-header {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px 0; }
+  #gh #ghx-header h2#ghx-board-name {
+    display: inline-block;
+    position: fixed;
+    right: 24px;
+    bottom: 0px;
+    font-size: 14px;
+    line-height: 30px; }
+
 #ghx-operations {
   display: inline-block;
-  position: fixed;
-  top: 51px;
-  left: 50%;
-  -webkit-transform: translateX(-50%); }
+  float: left; }
+  #ghx-operations #ghx-controls-sprint {
+    margin-right: 0; }
+  #ghx-operations .ghx-controls-filters dt, #ghx-operations .ghx-controls-filters dd, #ghx-operations #js-plan-quickfilters {
+    margin-bottom: 0; }
 
 /* Hide header collapse button, it is made somewhat redundant by other spacing improvements */
 #ghx-modes-tools #ghx-view-presentation {
   display: none; }
 
-/* Colour coded progress bars for epics in the side bar */
+/* Smaller epic column */
+#ghx-epic-column {
+  width: 164px; }
+  #ghx-epic-column h3 {
+    font-size: 12px; }
+
 /* Fix rows in work view columns to not take more space than necessary */
 .ghx-work .ghx-swimlane .ghx-columns .ghx-issue {
   height: auto; }
